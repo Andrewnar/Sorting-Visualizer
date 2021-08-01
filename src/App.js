@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Title from './Title';
+import Title from './components/title/Title';
+import Button from './components/button/Button';
+import ReactDOM from "react-dom";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Title />
-    </div>
+      <button />
+    </>
+
   );
 }
 
